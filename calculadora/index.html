@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="cont">
+        <div class="cont-calcu">
+
+            <div class="screen">
+                <input type="text" placeholder="0" disabled id="resultado">
+            </div>
+            <div class="btn-cal">
+                <input type="button" value="7" onclick="obtNum(this)">
+            </div>
+            <div class="btn-cal">
+                <input type="button" value="8" onclick="obtNum(this)">
+            </div>
+            <div class="btn-cal">
+                <input type="button" value="9" onclick="obtNum(this)">
+            </div>
+            <div class="btn-cal">
+                <input type="button" value="+" onclick="obtNum(this)">
+            </div>
+            <div class="btn-cal">
+                <input type="button" value="4" onclick="obtNum(this)">
+            </div>
+            <div class="btn-cal">
+                <input type="button" value="5" onclick="obtNum(this)">
+            </div>
+            <div class="btn-cal">
+                <input type="button" value="6" onclick="obtNum(this)">
+            </div>
+            <div class="btn-cal">
+                <input type="button" value="-" onclick="obtNum(this)">
+            </div>
+            <div class="btn-cal">
+                <input type="button" value="1" onclick="obtNum(this)">
+            </div>
+            <div class="btn-cal">
+                <input type="button" value="2" onclick="obtNum(this)">
+            </div>
+            <div class="btn-cal">
+                <input type="button" value="3" onclick="obtNum(this)">
+            </div>
+            <div class="btn-cal">
+                <input type="button" value="*" onclick="obtNum(this)">
+            </div>
+            <div class="btn-cal">
+                <input type="button" value="0" onclick="obtNum(this)">
+            </div>
+            <div class="btn-cal btn-cal-radius">
+                <input type="button" value="/" onclick="obtNum(this)">
+            </div>
+            <div class="btn-cal btn-cal-radius btn-clean">
+                <input type="button" value="C" class="clean" onclick="cleanss()">
+            </div>
+            <div class="btn-cal btn-cal-radius btn-equal">
+                <input type="button" value="=" class="equal" onclick="usar()">
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
